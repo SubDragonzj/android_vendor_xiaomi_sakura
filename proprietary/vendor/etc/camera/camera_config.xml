@@ -136,6 +136,56 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>sakura_s5k5e8_sunny</SensorName>
+    <EepromName>sakura_s5k5e8_sunny</EepromName>
+    <ChromatixName>sakura_s5k5e8_sunny_chromatix</ChromatixName>
+    <FlashName>pmic</FlashName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.186</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.0</TotalFocusDistance>
+      <HorizontalViewAngle>63.0</HorizontalViewAngle>
+      <VerticalViewAngle>49.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
+<CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>sakura_s5k5e8_ofilm</SensorName>
+    <EepromName>sakura_s5k5e8_ofilm</EepromName>
+    <ChromatixName>sakura_s5k5e8_ofilm_chromatix</ChromatixName>
+    <FlashName>pmic</FlashName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.186</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.0</TotalFocusDistance>
+      <HorizontalViewAngle>63.0</HorizontalViewAngle>
+      <VerticalViewAngle>49.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
 <CameraModuleConfig>
         <CameraId>2</CameraId>
         <SensorName>sakura_ov5675_ofilm</SensorName>
