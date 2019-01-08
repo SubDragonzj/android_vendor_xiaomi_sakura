@@ -2,10 +2,7 @@
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
-service vendor-factory-hal-1-0 /vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
-    interface vendor.qti.hardware.factory@1.0::IFactory default
+service factory-hal-1-0 /vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
     class hal
     user system
     group system
-    disabled
-    oneshot
